@@ -18,7 +18,7 @@
       <div class="container">
         <div class="center">
           <div class="name">
-            <h2>Chris Carrick</h2>
+            <h2>Carrick Family</h2>
 
           </div>
           <div class="img">
