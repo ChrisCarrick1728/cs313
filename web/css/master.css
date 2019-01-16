@@ -41,6 +41,8 @@ h1 {
 }
 
 h2 {
+  position: relative;
+  right: -40px;
   font-size: 40px;
   letter-spacing: 20px;
   color: #DEFF96;
