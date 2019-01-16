@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun:200');
+
+html, body {
+  margin: 0px;
+}
+
+body {
+  background-color: #333;
+  font-family: 'Sarabun', sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #444;
+}
+
+header p {
+  letter-spacing: 5px;
+  color: #FFD26C;
+  padding: 16px;
+  margin: 0px;
+  width: 200px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #FFD26C;
+}
+
+.link {
+  padding-left: 40px;
+  width: 242px;
+}
+
+.link:hover {
+  background-color: #555;
+}
+
+h1 {
+
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 20px;
+  color: #DEFF96;
+  text-align: right;
+}
+
+img {
+  width: 630px;
+  top: 60px;
+  position: relative;
+}
+
+.decoration {
+  position: absolute;
+  width: 650px;
+  top: 170px;
+}
+
+.people {
+  top: 60px;
+  position: relative;
+}
+
+p.names {
+  font-size: 20px;
+  letter-spacing: 10px;
+  color: #FFD26C;
+}
+
+p.names span {
+  cursor: pointer;
+}
+
+p span:hover {
+  color: #DEFF96;
+}
+
+p.hint {
+  color: #666;
+}
+
+.container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #555;
+}
