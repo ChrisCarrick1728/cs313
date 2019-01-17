@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="/css/master.css">
   </head>
   <body>
-    <h1>Comming Soon!</h1>
+    <?php include "components/header.php" ?>
+    <div class="container">
+      <div class="center">
+        <h2>Coming Soon!</h2>
+      </div>
+    </div>
+  <?php include "components/footer.php" ?>
   </body>
 </html>

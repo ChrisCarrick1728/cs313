@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <title></title>
+    <title>Chris Carricks Homepage</title>
     <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="/css/header.css">
     <script src="https://unpkg.com/jquery" charset="utf-8"></script>
     <script src="app.js" charset="utf-8"></script>
   </head>
   <body>
-    <header>
-      <div class="link">
-        <p><a href="assignment.php">Assignments</a></p>
-      </div>
-
-    </header>
+    <?php include "components/header.php" ?>
     <section>
       <div class="container">
         <div class="center">
           <div class="name">
             <h2>Carrick Family</h2>
-
           </div>
           <div class="img">
             <img class="decoration" src="img/SVG/decoration.svg" alt="">
@@ -41,10 +37,7 @@
 
         </div>
       </div>
-
     </section>
-    <footer>
-      <?php echo date("F d Y, g:i A T") ?>
-    </footer>
+    <?php include "components/footer.php" ?>
   </body>
 </html>

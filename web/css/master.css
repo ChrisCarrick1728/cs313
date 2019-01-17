@@ -9,37 +9,6 @@ body {
   font-family: 'Sarabun', sans-serif;
 }
 
-header {
-  border-bottom: 1px solid #444;
-}
-
-header p {
-  letter-spacing: 5px;
-  color: #FFD26C;
-  padding: 16px;
-  margin: 0px;
-  width: 200px;
-
-}
-
-a {
-  text-decoration: none;
-  color: #FFD26C;
-}
-
-.link {
-  padding-left: 40px;
-  width: 242px;
-}
-
-.link:hover {
-  background-color: #555;
-}
-
-h1 {
-
-}
-
 h2 {
   position: relative;
   right: -40px;
@@ -81,7 +50,7 @@ p span:hover {
 }
 
 p.hint {
-  color: #666;
+  color: #777;
 }
 
 .container {
@@ -96,8 +65,8 @@ p.hint {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   left: 10px;
-  color: #555;
+  color: #777;
 }
