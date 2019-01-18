@@ -27,8 +27,6 @@
               <span id="chris">Chris</span>,
               <span id="Lindsay">Lindsay</span>,
               <span id="Tyler">Tyler</span>,
-            </p>
-            <p class="names">
               <span id="Caleb">Caleb</span>,
               <span id="Clara">Clara</span> &
               <span id="Andy">Andy</span>

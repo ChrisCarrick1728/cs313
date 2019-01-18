@@ -16,6 +16,14 @@ h2 {
   letter-spacing: 20px;
   color: #DEFF96;
   text-align: right;
+  width: 630px;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 20px;
+  color: #DEFF96;
+  text-align: center;
 }
 
 img {
@@ -31,6 +39,7 @@ img {
 }
 
 .people {
+  width: 630px;
   top: 60px;
   position: relative;
 }
@@ -54,12 +63,46 @@ p.hint {
 }
 
 .container {
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.center {
+@media only screen and (max-width: 715px) {
+  .decoration {
+    display: none;
+  }
+
+  img {
+    position: inherit;
+    width: 100%;
+  }
+
+  .people {
+    width: 80%;
+    max-width: 100%;
+    position: inherit;
+    padding-left: 10px;
+  }
+
+  .container {
+    display: inherit;
+  }
+
+  h2 {
+    position: inherit;
+    font-size: 5vw;
+    letter-spacing: 3vw;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 5vw;
+    letter-spacing: 3vw;
+  }
+
+  .center {
+
+  }
 
 }
