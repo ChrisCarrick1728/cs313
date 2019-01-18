@@ -1,5 +1,9 @@
 header {
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #555;
+  background-color: #333;
+  top: 0px;
+  position: sticky;
+  z-index: 7;
 }
 
 #link_container {

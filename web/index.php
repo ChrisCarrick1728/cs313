@@ -6,8 +6,9 @@
     <title>Chris Carricks Homepage</title>
     <link rel="stylesheet" href="/css/master.css">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <script src="https://unpkg.com/jquery" charset="utf-8"></script>
-    <script src="app.js" charset="utf-8"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
   </head>
   <body>
     <?php include "components/header.php" ?>
