@@ -12,7 +12,7 @@
     <?php include "components/header.php" ?>
     <div class="container">
       <div class="center">
-        <h1>Coming Soon!</h1>
+        <h1>Prove 03 – Shopping Cart: <a href="prove02/index.php">Bread Boutique</a></h1>
       </div>
     </div>
     <?php include "components/footer.php" ?>
