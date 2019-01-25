@@ -25,6 +25,20 @@ h1 {
   color: #DEFF96;
   text-align: center;
 }
+.center h1{
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+
+.center h1 a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: #FFD26C;
+}
+
+.center h1 a:hover {
+  text-decoration: underline;
+}
 
 img {
   width: 630px;
